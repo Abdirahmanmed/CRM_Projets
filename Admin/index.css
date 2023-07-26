@@ -1,0 +1,52 @@
+.col-hover{
+    background-color: rgb(6, 6, 117);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.col-hover:hover{
+    background-color: rgb(4, 4, 145);
+}
+.hoverTable{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.hoverTable:hover{
+    background-color: rgb(4, 4, 145);
+}
+.exlamtion{
+    cursor: pointer;
+}
+.fontsize1{
+    font-size: 0.6rem;
+    font-weight: bolder;
+}
+.fontsize2{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.btn-hover{
+    background-color: rgb(7, 16, 66);
+    transition: 0.4s ease-in-out;
+}
+.btn-hover:hover{
+    background-color: rgb(2, 2, 107);
+}
+.color-blue{
+    color: rgb(7, 16, 66);
+}
+.color-blue1{
+    background-color: rgb(7, 16, 66);
+}
+select{
+    height: 40px;
+    border-radius: 4px;
+}
+.appel{
+    transition: 0.6s ease-in-out;
+    /* visibility: hidden; */
+    right: 1222222px;
+}
+.appel.active{
+    /* visibility: visible; */
+    right: 0;
+}

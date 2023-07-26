@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #c8ced3;
+    border-radius: .25rem;
+} 
+
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f0f3f5;
+    border-bottom: 1px solid #c8ced3;
+}
+
+.imgp{
+    height: 50px;
+    width: 50px;
+}
+.size1{
+    font-size: 0.9rem;
+}
+.size2{
+    font-size: 0.8rem;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+       <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div id="ui-view" data-select2-id="ui-view"><div><div class="card pb-2"style="width: 900px;">
+            <div class="card-header">
+            <strong>Facture</strong>
+            <a class="btn btn-sm btn-secondary float-right mr-1 d-print-none" href="#" onclick="javascript:window.print();" data-abc="true">
+            <i class="fa fa-print"></i> Print</a>
+            </div>
+            <div class="card-body">
+                <div class="row mb-4">
+                    <div class="col-sm-6">
+                        <div class="col-8 pt-1 d-flex">
+                            <label for="date" class="size2 d-flex align-items-center" style="width: 200px;">Date debut</label>
+                            <input type="date" class="size2" name="date" id="date" class="form-control">
+                        </div>
+                        <div class="col-8 pt-1 d-flex gap-2">
+                            <label for="datefin" class="size2 d-flex align-items-center" style="width: 200px;">Date fin</label>
+                            <input type="date" name="datefin" class="size2"  id="datefin" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 text-end">
+                        <img src="police.jpg" alt="logo" class="imgp">
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="table-responsive-sm">
+            <table class="table table-striped">
+            <thead>
+            <tr>
+            <th class="size2">Date</th>
+            <th class="size2">Reference</th>
+            <th class="size2">traffic-agent</th>
+            <th class="size2">Fraudeur</th>
+            <th class="size2">caissier_Agent</th>
+            <th class="right size2">Amende</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td class="left size2">12/02/2023</td>
+            <td class="left size2">referencer</td>
+            <td class="left size2">abdi</td>
+            <td class="left size2">Ali</td>
+            <td class="left size2">Mohamed</td>
+            <td class="right size2">$999,00</td>
+            </tr>
+            <tr>
+                <td class="left size2">01/12/2023</td>
+                <td class="left size2">referencer</td>
+                <td class="left size2">Ahmed</td>
+                <td class="left size2">youssouf</td>
+                <td class="left size2">Samia</td>
+                <td class="right size2">$1233,00</td>
+            </tr>
+            <tr>
+                <th class="size1" colspan="5">Total</th>
+                <td class="size1">12000 DJF</td>
+            </tr>
+            
+            </tbody>
+            </table>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div></div>
+       </div>
+    </div>
+    <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
